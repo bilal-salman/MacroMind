@@ -5,48 +5,42 @@
 ---
 
 ## Features
-
-- Track daily meals and nutrition intake  
-- Manage a database of foods with macros and costs  
-- Calculate total calories, protein, carbs, and fats per day  
-- Optimize meals for nutrition and budget  
-- Lightweight and easy to run from the command line  
+- Track daily meals and nutrition intake
+- Manage a database of foods with macros and costs
+- Calculate total calories, protein, carbs, and fats per day
+- Optimize meals for nutrition and budget
+- Lightweight and easy to run from the command line
 
 ---
 
 ## Installation & Setup
 
-1. **Clone the repository:**
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/bilalsalman0815/MacroMind.git](https://github.com/bilalsalman0815/MacroMind.git)
+    ```
+2.  **Open in CLion:**
+    - Open CLion → File → Open → select the `MacroMind` folder.
+3.  **Build the project:**
+    - CLion will automatically handle CMake and compile the project.
+4.  **Run the program:**
+    - Run the `macroMind.cpp` file from CLion or your terminal.
 
-```bash
-git clone https://github.com/bilalsalman0815/MacroMind.git
-Open in CLion:
-Open CLion → File → Open → select the MacroMind folder.
+---
 
-Build the project:
-CLion will automatically handle CMake and compile the project.
+## Project Structure
 
-Run the program:
-Run the macroMind.cpp file from CLion or your terminal.
+- `macroMind.cpp` → Main program driver
+- `Food.cpp` / `Food.h` → Food object class
+- `FoodDatabase.cpp` / `FoodDatabase.h` → Handles food database
+- `MacroGoals.cpp` / `MacroGoals.h` → Stores daily macro goals
+- `DailyLog.cpp` / `DailyLog.h` → Tracks daily food intake
+- `foods.csv` → Example food database
+- `.gitignore` → Ignores build files, IDE files, and temporary files
 
-Project Structure
-macroMind.cpp → Main program driver
+---
 
-Food.cpp / Food.h → Food object class
-
-FoodDatabase.cpp / FoodDatabase.h → Handles food database
-
-MacroGoals.cpp / MacroGoals.h → Stores daily macro goals
-
-DailyLog.cpp / DailyLog.h → Tracks daily food intake
-
-foods.csv → Example food database
-
-.gitignore → Ignores build files, IDE files, and temporary files
-
-Notes
-CLion build directories and binaries are ignored via .gitignore
-
-Only essential code files are included in this repo
-
-Designed for cross-platform compilation via CMake
+## Notes
+- CLion build directories and binaries are ignored via `.gitignore`.
+- Only essential code files are included in this repo.
+- Designed for cross-platform compilation via CMake.
