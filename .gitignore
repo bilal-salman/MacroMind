@@ -1,0 +1,24 @@
+# Build folders
+cmake-build-*/
+
+# Executables and object files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# CLion IDE files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific configs
+*.user
+*.user.*
