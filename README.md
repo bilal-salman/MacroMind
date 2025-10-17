@@ -61,20 +61,3 @@
     ```
 
 -----
-
-## Project Structure
-
-  - `macroMind.cpp` → Main program driver
-  - `Food.cpp` / `Food.h` → Food object class
-  - `FoodDatabase.cpp` / `FoodDatabase.h` → Handles food database
-  - `MacroGoals.cpp` / `MacroGoals.h` → Stores daily macro goals
-  - `DailyLog.cpp` / `DailyLog.h` → Tracks daily food intake
-  - `foods.csv` → Example food database
-  - `.gitignore` → Ignores build files and IDE settings
-
------
-
-## Notes
-
-  - The project is designed for cross-platform compilation via CMake.
-  - All build files and IDE-specific directories are ignored by `.gitignore`.
