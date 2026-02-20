@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/bilal/Desktop/MacroMindProject/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/macroMind.dir/src/Food.cpp.o -c /Users/bilal/Desktop/MacroMindProject/src/Food.cpp",
+  "file": "/Users/bilal/Desktop/MacroMindProject/src/Food.cpp",
+  "output": "CMakeFiles/macroMind.dir/src/Food.cpp.o"
+},
+{
+  "directory": "/Users/bilal/Desktop/MacroMindProject/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/macroMind.dir/src/FoodDatabase.cpp.o -c /Users/bilal/Desktop/MacroMindProject/src/FoodDatabase.cpp",
+  "file": "/Users/bilal/Desktop/MacroMindProject/src/FoodDatabase.cpp",
+  "output": "CMakeFiles/macroMind.dir/src/FoodDatabase.cpp.o"
+},
+{
+  "directory": "/Users/bilal/Desktop/MacroMindProject/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/macroMind.dir/src/DailyLog.cpp.o -c /Users/bilal/Desktop/MacroMindProject/src/DailyLog.cpp",
+  "file": "/Users/bilal/Desktop/MacroMindProject/src/DailyLog.cpp",
+  "output": "CMakeFiles/macroMind.dir/src/DailyLog.cpp.o"
+},
+{
+  "directory": "/Users/bilal/Desktop/MacroMindProject/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/macroMind.dir/src/MacroGoals.cpp.o -c /Users/bilal/Desktop/MacroMindProject/src/MacroGoals.cpp",
+  "file": "/Users/bilal/Desktop/MacroMindProject/src/MacroGoals.cpp",
+  "output": "CMakeFiles/macroMind.dir/src/MacroGoals.cpp.o"
+},
+{
+  "directory": "/Users/bilal/Desktop/MacroMindProject/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/macroMind.dir/src/macroMind.cpp.o -c /Users/bilal/Desktop/MacroMindProject/src/macroMind.cpp",
+  "file": "/Users/bilal/Desktop/MacroMindProject/src/macroMind.cpp",
+  "output": "CMakeFiles/macroMind.dir/src/macroMind.cpp.o"
+}
+]

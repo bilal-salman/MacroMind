@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/macroMind.dir/src/Food.cpp.o CMakeFiles/macroMind.dir/src/FoodDatabase.cpp.o CMakeFiles/macroMind.dir/src/DailyLog.cpp.o CMakeFiles/macroMind.dir/src/MacroGoals.cpp.o CMakeFiles/macroMind.dir/src/macroMind.cpp.o -o macroMind
